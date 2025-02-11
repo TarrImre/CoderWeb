@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    border-top: 2px solid #ccc;
+    background: transparent;
+}
+
+.product-img-container {
+    position: relative;
+    display: block;
+}
+
+.img-responsive{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    box-shadow: 0px 0px 25px 8px rgba(11, 12, 17, 0.1);
+    border-radius: 5px;
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.actions {
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;*/
+    background-color: #f5f5f5;
+    padding: 0.8rem;
+}
+
+.card-body * {
+    max-width: 100% !important;
+}
+
+.modal-body * {
+    max-width: 100% !important;
+}
+
+.card-body .category {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.card-body .manufacturer {
+    font-size: 1rem;
+    color: #999;
+}
+
+.card-body .name {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-body .description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-body .price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-body .net_price {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-body .delivery_time {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-body .delivery_cost {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-body .ean_code {
+    font-size: 0.75rem;
+    color: #999;
+    font-weight: 500;
+}
+
+button {
+    background-color: #f0f0f0;
+    border: none;
+    color: #333;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.eye-button,
+.trash-button,
+.edit-button,
+.info-button {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.eye-button {
+    background-image: url('../images/svg/eye-solid.svg');
+}
+
+.trash-button {
+    background-image: url('../images/svg/trash-solid.svg');
+}
+
+.edit-button {
+    background-image: url('../images/svg/edit-solid.svg');
+}
+
+.info-button {
+    background-image: url('../images/svg/info-solid.svg');
+}
+
+.eye-button:hover,
+.trash-button:hover,
+.edit-button:hover,
+.info-button:hover {
+    transform: scale(1.1);
+}
