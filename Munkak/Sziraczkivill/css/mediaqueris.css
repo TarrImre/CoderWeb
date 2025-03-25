@@ -45,6 +45,19 @@
     .navbar-nav .dropdown-menu {
         position: absolute !important;
     }
+
+    .splide__slide .one-opinion{
+        width: 100%;
+        height: auto;
+        margin-top: 3em;
+        transform: scale(1);
+        max-width: 100%;
+    }
+
+    .mobileslider {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

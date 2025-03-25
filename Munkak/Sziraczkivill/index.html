@@ -303,83 +303,86 @@
         </div>
     </section>
 
-    <section class="crusial py-5 flex-column text-center pb-5 mb-5">
+    <section class="crusial py-5 flex-column text-center pb-5 mb-5 overflow-hidden">
         <div class="container text-center">
             <h2 class="title pb-3 text-uppercase">Ügyfeleink véleménye</h2>
-            <div class="default-text weight-500 size-20 line-height-160 mb-5 text-center">
-                <p>Ügyfeleink elégedettsége a legfontosabb számunkra. Büszkék vagyunk arra, hogy munkánkat pozitív
-                    visszajelzések és ajánlások kísérik. Olvassa el, mit mondanak azok, akik már megtapasztalták
-                    szolgáltatásaink minőségét!</p>
-            </div>
+            <div class="default-text weight-500 size-20 line-height-160 mb-5 text-center"><p>Ügyfeleink elégedettsége a legfontosabb számunkra. Büszkék vagyunk arra, hogy munkánkat pozitív visszajelzések és ajánlások kísérik. Olvassa el, mit mondanak azok, akik már megtapasztalták szolgáltatásaink minőségét!</p></div>
         </div>
-        <div class="col-sm-12 pb-5 mb-5">
-            <div class="splide splide--loop splide--ltr splide--draggable is-active is-initialized" id="splide"
-                role="region" aria-roledescription="carousel">
-                <div class="splide__track splide__track--loop splide__track--ltr splide__track--draggable"
-                    id="splide-track" aria-live="polite" aria-atomic="true"
-                    style="padding-left: 0px; padding-right: 0px;">
-                    <ul class="splide__list" id="splide-list">
-                        <li class="splide__slide" id="splide-slide01">
-                            <div class="one-opinion">
-                                <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
-                                <p class="default-text weight-400 size-32 line-height-100 w-100 mb-4">Tamás B.</p>
-                                <p class="default-text weight-400 italic size-16 line-height-180 w-100">
-                                    Nagyon elégedett vagyok a SZIRÁCZKI-VILL csapatával! Gyorsan és precízen
-                                    dolgoztak, minden kérdésemre készségesen válaszoltak. A villamos hálózatunkat
-                                    modernizálták, és azóta minden tökéletesen működik. Csak ajánlani tudom őket!
-                                </p>
-                            </div>
-                        </li>
-                        <li class="splide__slide" id="splide-slide11">
-                            <div class="one-opinion">
-                                <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
-                                <p class="default-text weight-400 size-32 line-height-100 w-100 mb-4">Tamás B.</p>
-                                <p class="default-text weight-400 italic size-16 line-height-180 w-100">
-                                    Nagyon elégedett vagyok a SZIRÁCZKI-VILL csapatával! Gyorsan és precízen
-                                    dolgoztak, minden kérdésemre készségesen válaszoltak. A villamos hálózatunkat
-                                    modernizálták, és azóta minden tökéletesen működik. Csak ajánlani tudom őket!
-                                </p>
-                            </div>
-                        </li>
-                        <li class="splide__slide" id="splide-slide12">
-                            <div class="one-opinion">
-                                <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
-                                <p class="default-text weight-400 size-32 line-height-100 w-100 mb-4">Tamás B.</p>
-                                <p class="default-text weight-400 italic size-16 line-height-180 w-100">
-                                    Nagyon elégedett vagyok a SZIRÁCZKI-VILL csapatával! Gyorsan és precízen
-                                    dolgoztak, minden kérdésemre készségesen válaszoltak. A villamos hálózatunkat
-                                    modernizálták, és azóta minden tökéletesen működik. Csak ajánlani tudom őket!
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-sm-12 pb-5 mb-5 w-100 mobileslider">
+                <div class="splide splide--loop splide--ltr splide--draggable is-active is-overflow is-initialized" id="splide" role="region" aria-roledescription="carousel">
+                    <div class="splide__track splide__track--loop splide__track--ltr splide__track--draggable" id="splide-track" aria-live="polite" aria-atomic="true" style="padding-left: 0px; padding-right: 0px;">
+                        <ul class="splide__list" id="splide-list" role="presentation" style="transform: translateX(-690px);">
+                                                            <li class="splide__slide splide__slide--clone is-active" id="splide-clone01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2" style="width: calc(100%);" aria-hidden="true">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Buczkó Tamás</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Pozitív: Minőség, Pontosság, Szakszerűség, Válaszadási hajlandóság, Érték</div>
+                                    </div>
+                                </li><li class="splide__slide splide__slide--clone is-prev" id="splide-clone02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2" style="width: calc(100%);" aria-hidden="true">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Dusza Richárd</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Mindenben segítőkész, szakértő, szorgalmas és rugalmas csapat!</div>
+                                    </div>
+                                </li><li class="splide__slide is-center is-active is-visible" id="splide-slide01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2" style="width: calc(100%);">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Buczkó Tamás</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Pozitív: Minőség, Pontosság, Szakszerűség, Válaszadási hajlandóság, Érték</div>
+                                    </div>
+                                </li>
+                                                            <li class="splide__slide is-next" id="splide-slide02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2" style="width: calc(100%);" aria-hidden="true">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Dusza Richárd</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Mindenben segítőkész, szakértő, szorgalmas és rugalmas csapat!</div>
+                                    </div>
+                                </li>
+                                                    <li class="splide__slide splide__slide--clone is-active" id="splide-clone03" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2" style="width: calc(100%);" aria-hidden="true">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Buczkó Tamás</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Pozitív: Minőség, Pontosság, Szakszerűség, Válaszadási hajlandóság, Érték</div>
+                                    </div>
+                                </li><li class="splide__slide splide__slide--clone" id="splide-clone04" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2" style="width: calc(100%);" aria-hidden="true">
+                                    <div class="one-opinion">
+                                        <img src="assets/images/icons/quote-icon.svg" alt="Idézőjel ikon" class="img-fluid">
+                                        <p class="default-text weight-400 size-32 line-height-100 w-100 mb-3 text-center">Dusza Richárd</p>
+                                        <div class="default-text weight-400 italic size-16 line-height-180 w-100 text-center">Mindenben segítőkész, szakértő, szorgalmas és rugalmas csapat!</div>
+                                    </div>
+                                </li></ul>
+                    </div>
+                <ul class="splide__pagination splide__pagination--ltr" role="tablist" aria-label="Select a slide to show"><li role="presentation"><button class="splide__pagination__page is-active" type="button" role="tab" aria-controls="splide-slide01" aria-label="Go to slide 1" aria-selected="true"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide-slide02" aria-label="Go to slide 2" tabindex="-1"></button></li></ul></div>
             </div>
-        </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var splide = new Splide('#splide', {
-                    type: 'loop',
-                    perPage: 3,
-                    perMove: 1,
-                    focus: 'center',
-                    arrows: false,
-                    pagination: true,
-                });
-
-                splide.on('mounted move', function () {
-                    document.querySelectorAll('.splide__slide.is-center').forEach(function (slide) {
-                        slide.classList.remove('is-center');
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var splide = new Splide('#splide', {
+                        type: 'loop',
+                        perPage: 3,
+                        perMove: 1,
+                        focus: 'center',
+                        arrows: false,
+                        pagination: true,
+                        breakpoints: {
+                            991: {
+                                perPage: 1,
+                            },
+                        } 
                     });
-                    var centerSlide = splide.Components.Slides.getAt(splide.index);
-                    if (centerSlide) {
-                        centerSlide.slide.classList.add('is-center');
-                    }
-                });
 
-                splide.mount();
-            });
-        </script>
+                    splide.on('mounted move', function () {
+                        document.querySelectorAll('.splide__slide.is-center').forEach(function (slide) {
+                            slide.classList.remove('is-center');
+                        });
+                        var centerSlide = splide.Components.Slides.getAt(splide.index);
+                        if (centerSlide) {
+                            centerSlide.slide.classList.add('is-center');
+                        }
+                    });
+
+                    splide.mount();
+                });
+            </script>
     </section>
 
     <section class="quality">
